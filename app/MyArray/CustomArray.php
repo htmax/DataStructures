@@ -2,13 +2,11 @@
 
 namespace App\MyArray;
 
-use App\BaseDataStructure;
-
 /**
  * php模拟一个限制长度的数组，由于php语言本身特性,数组并不限制长度，所以添加一个容量属性capacity限制
  * Class CustomArray
  */
-class CustomArray extends BaseDataStructure
+class CustomArray
 {
     private $capacity;
     private $arr = [];
@@ -179,7 +177,7 @@ class CustomArray extends BaseDataStructure
     }
 
     //测试数组
-    public function testArray()
+    public function testCase()
     {
         $res = sprintf("Array: size = %d , capacity = %d\n", $this->size, $this->capacity);
         $res .= '[';

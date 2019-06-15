@@ -2,7 +2,6 @@
 
 namespace App\Stack;
 
-use App\BaseDataStructure;
 use App\MyArray\CustomArray;
 
 //栈也是一种线性结构
@@ -18,7 +17,7 @@ use App\MyArray\CustomArray;
  * 使用数组构建一个栈
  * Class ArrayStack
  */
-class ArrayStack extends BaseDataStructure implements Stack
+class ArrayStack implements Stack
 {
     /** @var CustomArray $array */
     private $array;
@@ -57,7 +56,7 @@ class ArrayStack extends BaseDataStructure implements Stack
     }
 
     //测试栈
-    public function testStack()
+    public function testCase()
     {
         $res = 'Stack: [';
 
