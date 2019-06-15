@@ -1,0 +1,17 @@
+{
+    "name": "nht/data-structures",
+    "description": "data structures study",
+    "license": "HaitaoNie",
+    "authors": [
+        {
+            "name": "HaitaoNie",
+            "email": "1120672950@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
