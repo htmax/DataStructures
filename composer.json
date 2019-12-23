@@ -1,17 +1,31 @@
 {
-    "name": "htmax/play-with-data-structures",
+    "name": "htmax/php-data-structures",
+    "type": "library",
     "description": "data structures study",
-    "license": "HaiTao Nie",
+    "license": "MIT",
+    "keywords": [
+        "PHP",
+        "data structures",
+        "algorithm"
+    ],
+    "homepage": "https://www.htmax.cn/",
     "authors": [
         {
             "name": "HaiTao Nie",
             "email": "1120672950@qq.com"
         }
     ],
-    "require": {},
+    "require": {
+        "php": "^5.5"
+    },
     "autoload": {
         "psr-4": {
             "DataStructures\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
         }
     }
 }
