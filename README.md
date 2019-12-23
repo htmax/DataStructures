@@ -4,4 +4,4 @@
 
 **个人网站**：[https://www.htmax.cn](https://www.htmax.cn)
 
-**电子邮件**：[handsomehaitao@gmail.com](mailto:handsomehaitao@gmail.com)
+**电子邮件**：[haitao1120672950@qq.com](mailto:1120672950@qq.com)
