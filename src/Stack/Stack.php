@@ -1,5 +1,5 @@
 <?php
-namespace App\Stack;
+namespace DataStructures\Stack;
 
 interface Stack
 {

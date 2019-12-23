@@ -1,24 +1,22 @@
 <?php
+namespace DataStructures;
+use DataStructures\MyArray\CustomArray;
+use DataStructures\Stack\ArrayStack;
 
-namespace DataStructure;
-
-use App\MyArray\CustomArray;
-use App\Stack\ArrayStack;
-
-require_once 'vendor/autoload.php';
+require __DIR__ . '/vendor/autoload.php';
 
 /*——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————*/
 //测试数组
 
 $obj = new CustomArray();
 
-for($i = 0 ; $i < 10 ; $i ++) {
+for ($i = 0; $i < 10; $i++) {
     $obj->addLast($i);
     print_r($obj->testCase());
 }
 
 $obj->remove(6);
-$obj->set(3,444);
+$obj->set(3, 444);
 echo 'set: ' . $obj->get(3) . PHP_EOL;
 echo "capacity: {$obj->getCapacity()}" . PHP_EOL;
 echo "size: {$obj->getSize()}" . PHP_EOL;

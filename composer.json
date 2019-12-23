@@ -1,17 +1,17 @@
 {
-    "name": "nht/data-structures",
+    "name": "htmax/play-with-data-structures",
     "description": "data structures study",
-    "license": "HaitaoNie",
+    "license": "HaiTao Nie",
     "authors": [
         {
-            "name": "HaitaoNie",
+            "name": "HaiTao Nie",
             "email": "1120672950@qq.com"
         }
     ],
     "require": {},
     "autoload": {
         "psr-4": {
-            "App\\": "app/"
+            "DataStructures\\": "src/"
         }
     }
 }
