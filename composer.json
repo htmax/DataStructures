@@ -1,7 +1,7 @@
 {
     "name": "htmax/play-with-data-structures",
     "type": "library",
-    "description": "data structures study",
+    "description": "PHP Data Structures Code",
     "license": "MIT",
     "keywords": [
         "PHP",

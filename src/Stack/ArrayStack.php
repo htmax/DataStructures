@@ -2,7 +2,7 @@
 
 namespace DataStructures\Stack;
 
-use DataStructures\MyArray\CustomArray;
+use DataStructures\CustomArray\CustomArray;
 
 //栈也是一种线性结构
 //相比数组 栈对应的操作是数组的子集
@@ -22,7 +22,7 @@ class ArrayStack implements Stack
     /** @var CustomArray $array */
     private $array;
 
-    public function __construct($capacity = 10)
+    public function __construct(int $capacity = 10)
     {
         $this->array = new CustomArray($capacity);
     }
@@ -45,12 +45,12 @@ class ArrayStack implements Stack
         return $this->array->getLast();
     }
 
-    public function getSize()
+    public function getSize():int
     {
         return $this->array->getSize();
     }
 
-    public function isEmpty()
+    public function isEmpty():bool
     {
         return $this->array->isEmpty();
     }

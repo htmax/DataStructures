@@ -1,5 +1,5 @@
 <?php
-use DataStructures\MyArray\CustomArray;
+use DataStructures\CustomArray\CustomArray;
 
 require __DIR__ . '../../vendor/autoload.php';
 

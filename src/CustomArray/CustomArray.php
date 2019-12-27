@@ -1,6 +1,6 @@
 <?php
 
-namespace DataStructures\MyArray;
+namespace DataStructures\CustomArray;
 
 /**
  * php模拟一个限制长度的数组，由于php语言本身特性,数组并不限制长度，所以添加一个容量属性capacity限制
